@@ -3,12 +3,10 @@
 
 #include"my_string_global.h"
 
-char * Strcpy ( char * destination, const char * source )
+char * Strcpy( char * destination, const char * source )
 {
-	memcopy( destination, sourse, sizeof( sourse );
-	return destinaion;	
-
-
+    memcpy( destination, source, sizeof( source ) );
+    return destination;
 }
 
 

@@ -1,15 +1,14 @@
 #include"my_string.h"
-#include<stdio.h>
+//#include<stdio.h>
 
 int main()
 {
-char *text = "Hello";
-char *copy_text;
 
+    char text [] = "Hello";
+    char copy_text [ sizeof(char) ];
 
-printf("%s", copy_text);
+    Strcpy( copy_text, text );
+    printf("%s", copy_text);
 
-
-
-return 0;
+    return 0;
 }
